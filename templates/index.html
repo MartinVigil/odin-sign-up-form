@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <section class="aside-section" id="1">
+                <img src="../static/odin-lined.png" alt="odin-logo">
+                <h1>ODIN</h1>
+            </section>
+            <footer class="aside-footer"><p>Photo By <a href="https://unsplash.com/es/@haliewestphoto" target="_blank">Halie West</a> 
+                                         on <a href="https://unsplash.com/" target="_blank">Unsplash</a></p></footer>
+        </aside>
+        <article>
+            <header class="article-header">
+                <h2>This is not a real online service! You know you need something like this in your life to help 
+                    you realize your deepest dreams. Sign up now to get started. 
+                </h2>
+                <h2>
+                    You know you want to.
+                </h2>
+            </header>
+            <section class="article-section" id="1">
+                <h2>Let's do this!</h2>
+                <form id="myform" action="https://httpbin.org/post" method="post">
+                    <div class="article-form-column" id="1">
+                        <label for="firstName">FIRST NAME</label><br>
+                        <input type="text" name="firstName" id="firstName"><br>
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" name="password" id="password"><br>
+                    </div>
+                    <div class="article-form-column" id="2">
+                        <label for="lastName">LAST NAME</label><br>
+                        <input type="text" name="lastName" id="lastName"><br>
+                        <label for="phoneNumber">PHONE NUMBER</label><br>
+                        <input type="number" name="phoneNumber" id="phoneNumber"><br>
+                        <label for="confirm_password">CONFIRM PASSWORD</label><br>
+                        <input type="password" name="confirm_password" id="confirm_password"><br>
+                    </div>
+                </form>
+            </section>
+            <footer class="article-footer">
+                <button form="myform" type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </footer>
+        </article>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
